@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondv">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/textView_act0"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:gravity="center"
+                android:text="Jeux "
+                android:textColor="@color/white"
+                android:textSize="80dp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <Button
+                android:id="@+id/bouton1_act0"
+
+                android:layout_width="410dp"
+                android:layout_height="100dp"
+                android:layout_margin="7dp"
+                android:text="Jeu de Mot"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bouton2_act0"
+                android:layout_width="410dp"
+                android:layout_height="100dp"
+                android:layout_margin="7dp"
+                android:text="Jeu de Couleur"
+                android:textSize="20dp"
+                 />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bouton3_act0"
+                android:layout_width="410dp"
+                android:layout_height="100dp"
+                android:layout_margin="7dp"
+                android:text="Jeu de calcul"
+                android:textSize="20dp"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
+
+
+
+
+
